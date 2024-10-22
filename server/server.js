@@ -13,7 +13,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(express.json());
-app.use(cors()); //cross origin resource sharing    security policy to verify identity
+app.use(cors()); //cross origin resource sharing    //security policy to verify identity
 
 // Error handling middleware
 app.use(errorHandler);
